@@ -32,7 +32,7 @@ namespace vs_2019_github_collaboration
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("<h1>Hello World!</h1>");
+                    await context.Response.WriteAsync("<h1>HELLO WORLD!</h1>");
                     await context.Response.WriteAsync("Welcome to my site!");
                 });
             });
